@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "condition": {
+      "urlFilter": "https://bxkgqurwqjmvrqekcbws.supabase.co/rest/v1/rpc/get_subscription_details"
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/overrides/get_subscription_details.json"
+      }
+    }
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "manifest_version": 3,
+  "name": "JsonCracker",
+  "description": "Crack the https://pro.jsoncrack.com website.",
+  "version": "0.0.1",
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback",
+    "declarativeContent"
+  ],
+  "host_permissions": [
+    "https://pro.jsoncrack.com/*",
+    "https://bxkgqurwqjmvrqekcbws.supabase.co/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules/rule.json"
+      }
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://pro.jsoncrack.com/editor"
+      ],
+      "js": [
+        "session.js"
+      ],
+      "run_at": "document_start",
+      "world": "ISOLATED",
+      "all_frames": false
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "overrides/get_subscription_details.json"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}

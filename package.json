@@ -1,0 +1,16 @@
+{
+  "name": "jsoncracker",
+  "version": "1.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": "git@github.com:jooooock/jsoncracker.git",
+  "author": "Jock <findsource@proton.me>",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "devDependencies": {
+    "fs-extra": "^11.2.0",
+    "zip-lib": "^1.0.3"
+  }
+}

@@ -11,5 +11,31 @@
         "extensionPath": "/overrides/get_subscription_details.json"
       }
     }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "condition": {
+      "urlFilter": "https://bxkgqurwqjmvrqekcbws.supabase.co/rest/v1/subscription?select=renews_at"
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/overrides/subscription.json"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "condition": {
+      "urlFilter": "https://bxkgqurwqjmvrqekcbws.supabase.co/auth/v1/user"
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/overrides/user.json"
+      }
+    }
   }
 ]

@@ -17,3 +17,16 @@ Crack the [jsoncrack](https://pro.jsoncrack.com/) pro editor.
 
 ## 使用
 安装完之后启用该插件，然后直接访问 https://pro.jsoncrack.com/editor 即可。
+
+
+## 修改账号
+如果想要修改页面显示的账号，可修改解压目录下面的`session.js`文件，修改内容如下：
+```js
+/*========================== 可自定义此账户信息 =================================*/
+const profile = {
+    name: 'Jack',
+    email: 'findsource@proton.me',
+    avatar: 'https://avatars.githubusercontent.com/u/156505552?v=4',
+}
+/*============================================================================*/
+```

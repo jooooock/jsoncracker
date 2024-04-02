@@ -24,18 +24,5 @@
         "extensionPath": "/overrides/subscription.json"
       }
     }
-  },
-  {
-    "id": 3,
-    "priority": 1,
-    "condition": {
-      "urlFilter": "https://bxkgqurwqjmvrqekcbws.supabase.co/auth/v1/user"
-    },
-    "action": {
-      "type": "redirect",
-      "redirect": {
-        "extensionPath": "/overrides/user.json"
-      }
-    }
   }
 ]

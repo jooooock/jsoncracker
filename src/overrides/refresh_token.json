@@ -1,0 +1,14 @@
+{
+  "access_token": ".eyJhcHBfbWV0YWRhdGEiOnsicHJlbWl1bSI6eyJzdGF0dXMiOiJhY3RpdmUiLCJ2YXJpYW50X2lkIjoxMDU5NDQsInJlbmV3c19hdCI6IiJ9fX0=",
+  "refresh_token": "a fake refresh token",
+  "expires_at": 0,
+  "expires_in": "never",
+  "user": {
+    "user_metadata": {
+      "name": "Jack",
+      "avatar_url": "https://avatars.githubusercontent.com/u/156505552?v=4"
+    },
+    "email": "findsource@proton.me"
+  },
+  "__from__": "jsoncracker"
+}

@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "JsonCracker",
   "description": "Crack the https://pro.jsoncrack.com website.",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "permissions": [
     "declarativeNetRequestWithHostAccess"
   ],
@@ -24,7 +24,7 @@
       "resources": [
         "overrides/get_subscription_details.json",
         "overrides/subscription.json",
-        "overrides/user.json"
+        "overrides/refresh_token.json"
       ],
       "matches": [
         "<all_urls>"

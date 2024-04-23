@@ -24,5 +24,18 @@
         "extensionPath": "/overrides/subscription.json"
       }
     }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "condition": {
+      "urlFilter": "https://bxkgqurwqjmvrqekcbws.supabase.co/auth/v1/token?grant_type=refresh_token"
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/overrides/refresh_token.json"
+      }
+    }
   }
 ]

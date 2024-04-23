@@ -20,13 +20,21 @@ Crack the [jsoncrack](https://pro.jsoncrack.com/) pro editor.
 
 
 ## 修改账号
-如果想要修改页面显示的账号，可修改解压目录下面的`session.js`文件，修改内容如下：
-```js
-/*========================== 可自定义此账户信息 =================================*/
-const profile = {
-    name: 'Jack',
-    email: 'findsource@proton.me',
-    avatar: 'https://avatars.githubusercontent.com/u/156505552?v=4',
+如果想要修改页面显示的账号，可修改解压目录下面的`src/overrides/refresh_token.json`文件，具体如下所示：
+```json
+{
+  "access_token": "...",
+  "refresh_token": "a fake refresh token",
+  "expires_at": 0,
+  "expires_in": "never",
+  "user": {
+    "user_metadata": {
+      "name": "用户名",
+      "avatar_url": "头像地址"
+    },
+    "email": "邮箱"
+  },
+  "__from__": "jsoncracker"
 }
-/*============================================================================*/
+
 ```

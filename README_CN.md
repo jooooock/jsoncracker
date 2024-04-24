@@ -70,3 +70,7 @@ const token = btoa(JSON.stringify({
     }
 }))
 ```
+
+## 免责声明
+
+该插件仅供学习与研究，禁止用于任何商业目的。

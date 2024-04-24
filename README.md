@@ -38,3 +38,7 @@ If you want to customize the account displayed on the page, you can modify the `
   "__from__": "jsoncracker"
 }
 ```
+
+## Disclaimer
+
+This extension is for learning and research only and is not allowed to be used for commercial purposes.

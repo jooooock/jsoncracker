@@ -37,7 +37,7 @@
         "https://pro.jsoncrack.com/*"
       ],
       "js": [
-        "init.js"
+        "bootstrap.js"
       ],
       "run_at": "document_start",
       "world": "ISOLATED",

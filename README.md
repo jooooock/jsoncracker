@@ -4,7 +4,7 @@
 
 English / [简体中文](./README_CN.md)
 
-Use the Pro editor of [JSON CRACK](https://pro.jsoncrack.com/) for free
+Use the Pro Editor of [JSON CRACK](https://pro.jsoncrack.com/) for FREE.
 </div>
 
 

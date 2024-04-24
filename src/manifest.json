@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "JsonCracker",
-  "description": "Crack the https://pro.jsoncrack.com website.",
+  "description": "免费使用 https://pro.jsoncrack.com",
   "version": "0.0.5",
   "permissions": [
     "declarativeNetRequestWithHostAccess"
@@ -37,7 +37,7 @@
         "https://pro.jsoncrack.com/*"
       ],
       "js": [
-        "session.js"
+        "init.js"
       ],
       "run_at": "document_start",
       "world": "ISOLATED",

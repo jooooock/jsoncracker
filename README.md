@@ -1,26 +1,27 @@
-# jsoncracker
+<div align="center">
 
-Crack the [jsoncrack](https://pro.jsoncrack.com/) pro editor.
+<h1 align="center">jsoncracker</h1>
 
+English / [简体中文](./README_CN.md)
 
-## 安装
-从 [Release 页面](https://github.com/jooooock/jsoncracker/releases)下载最新版本的 jsoncracker.zip 并解压，然后打开 Chrome 插件管理页面(chrome://extensions/)，如下：
-
-![1](https://github.com/jooooock/jsoncracker/assets/156505552/50fa0993-ed7d-49ca-b560-28ef2e814eab)
-
-打开右上角的开发者模式，然后在左上角的 **Load unpacked** 按钮安装该插件。
-
-安装后的效果如下：
-
-![2](https://github.com/jooooock/jsoncracker/assets/156505552/e69d5099-2485-4243-89e9-24e399fc8ec1)
+Use the Pro editor of [JSON CRACK](https://pro.jsoncrack.com/) for free
+</div>
 
 
-## 使用
-安装完之后启用该插件，然后直接访问 https://pro.jsoncrack.com/editor 即可。
+## Installation
+
+Download the latest version of jsoncracker.zip from [Release page](https://github.com/jooooock/jsoncracker/releases) and unzip it, then follow [this tutorial](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked) to install.
 
 
-## 修改账号
-如果想要修改页面显示的账号，可修改解压目录下面的`src/overrides/refresh_token.json`文件，具体如下所示：
+## Usage
+
+After installation, enable the extension and then directly visit https://pro.jsoncrack.com/editor.
+
+
+## Customize account
+
+If you want to customize the account displayed on the page, you can modify the `overrides/refresh_token.json` file under the decompression directory, as shown below:
+
 ```json
 {
   "access_token": "...",
@@ -29,12 +30,11 @@ Crack the [jsoncrack](https://pro.jsoncrack.com/) pro editor.
   "expires_in": "never",
   "user": {
     "user_metadata": {
-      "name": "用户名",
-      "avatar_url": "头像地址"
+      "name": "<USER NAME>",
+      "avatar_url": "<USER AVATAR>"
     },
-    "email": "邮箱"
+    "email": "<USER EMAIL>"
   },
   "__from__": "jsoncracker"
 }
-
 ```
